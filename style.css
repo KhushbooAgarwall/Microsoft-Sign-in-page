@@ -1,19 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", "Helvetica Neue", sans-serif;
     /* font-family: sans-serif; */
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
 }
-#nav{
+
+#nav {
     height: 55px;
     width: 100%;
     display: flex;
@@ -25,44 +29,52 @@ html,body{
     position: fixed;
     z-index: 1;
 }
-#nav-left{
+
+#nav-left {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 5%;
 }
-#nav-left img{
+
+#nav-left img {
     height: 40%;
     width: 40%;
     padding-right: 25px;
     border-right: 2px solid black;
 }
-#nav-left h4{
+
+#nav-left h4 {
     font-size: 1.4vw;
     color: #0e0d0d;
     font-weight: 500;
     border-bottom: 2px solid transparent;
 }
-#nav-left h4:hover{
+
+#nav-left h4:hover {
     border-bottom: 2px solid black;
 }
-#nav-left h5{
+
+#nav-left h5 {
     padding: 2px 0px;
     font-size: 1vw;
     font-weight: 400;
     color: #666666;
     border-bottom: 2px solid transparent;
 }
-#nav-left h5:hover{
+
+#nav-left h5:hover {
     border-bottom: 2px solid black;
 }
-#nav-right i{
+
+#nav-right i {
     font-size: 1.5vw;
     font-weight: 500;
     color: #555454;
     margin-left: 15px;
 }
-#section1{
+
+#section1 {
     height: 80%;
     width: 100%;
     display: grid;
@@ -72,7 +84,8 @@ html,body{
     padding: 120px 0px 60px 0px;
     margin-bottom: 30px;
 }
-#section1 h1{
+
+#section1 h1 {
     font-size: 5vw;
     font-weight: 500;
     display: flex;
@@ -81,44 +94,51 @@ html,body{
     color: #333232;
     line-height: 6vw;
 }
-#section1 h3{
+
+#section1 h3 {
     margin-top: 24px;
     font-size: 1.9vw;
     font-weight: 400;
     color: #414040;
 }
-#btn{
+
+#btn {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
-#section1 button{
+
+#section1 button {
     margin-top: 50px;
     padding: 7px 20px;
     border-radius: 5px;
-    background-color:  rgb(0, 111, 201);
+    background-color: rgb(0, 111, 201);
     color: white;
     font-size: 1.1vw;
     font-weight: 600;
     border: none;
 }
+
 #section2 {
     height: 100%;
-    width: 100%;   
+    width: 100%;
 }
-#image{
+
+#image {
     height: 59%;
     width: 100%;
     position: relative;
 }
-#image img{
+
+#image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: 0% 60%;
 }
-#icon{
+
+#icon {
     height: 12vw;
     width: 12vw;
     background-color: white;
@@ -130,11 +150,13 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-#icon img{
+
+#icon img {
     height: 6.1vw;
     width: 6.1vw;
 }
-#section2 h1{
+
+#section2 h1 {
     /* height: %; */
     font-size: 5vw;
     font-weight: 500;
@@ -145,7 +167,8 @@ html,body{
     line-height: 6vw;
     margin-top: 10%;
 }
-#section2 h3{
+
+#section2 h3 {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -155,44 +178,118 @@ html,body{
     color: #414040;
 
 }
-#section3{
+
+#section3 {
     height: 100%;
     width: 100%;
     margin-top: 7%;
 }
 
-#boxes{
+#boxes {
     height: 100%;
     width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 30% 30% ;
+    grid-template-columns: 30% 30%;
     grid-template-rows: 60% 60%;
     gap: 5%;
 }
-.box{
+
+.box {
     border-radius: 10px;
     height: 100%;
     width: 100%;
     padding-bottom: 15%;
 }
-.box-img{
+
+.box-img {
     height: 70%;
     width: 100%;
 }
-.box-img img{
+
+.box-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
-.box h4{
+
+.box h4 {
     margin-top: 15px;
     font-size: 1.7vw;
     font-weight: 600;
 }
-.box p{
+
+.box p {
     margin-top: 10px;
     color: #666666;
+}
+
+#section4 {
+    height: fit-content;
+    width: 100%;
+    background-color:rgb(250, 250, 250);
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    margin-top: 19%;
+    text-align: center;
+    padding: 0 15%;
+    grid-template-columns: 100%;
+    grid-template-rows:  28%  24%  24% 24%;
+}
+#content{
+    align-self: center;
+    margin-bottom: 6%;
+}
+#content h1 {
+    font-size: 4.9vw;
+    font-weight: 500;
+    color: #333232;
+    line-height: 6vw;
+    margin-top: 9%;
+}
+#content h3 {
+    margin-top: 30px;
+    font-size: 1.8vw;
+    font-weight: 400;
+    color: #414040;
+}
+#grid-elem{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.grid-content{
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    justify-content: start;
+    align-self: center;
+    text-align: start;
+}
+.grid-content h3{
+    font-size: 3.2vw;
+    font-weight: 500;
+    padding-bottom: 2.5%;
+}
+.grid-content p{
+    font-size: 1.9vw;
+    font-weight: 400;
+    color: #000;
+}
+.grid-img{
+    height: 90%;
+    width: 90%;
+}
+.grid-img img{
+    border-radius: 5px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
